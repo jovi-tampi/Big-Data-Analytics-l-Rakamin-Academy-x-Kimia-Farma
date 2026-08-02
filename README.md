@@ -194,7 +194,7 @@ not `branch_name`.
 `kf_analysis_table` was connected as the sole data source, powering a 
 two-page interactive dashboard:
 
-**Page 1 — Main Dashboard:**
+**Main Dashboard:**
 - Title, 5 filter controls (product, kota, branch, provinsi, date range)
 - 5 summary scorecards (transactions, nett sales, nett profit, customers, avg rating)
 - Indonesia geo map — net profit by provinsi
@@ -204,14 +204,11 @@ two-page interactive dashboard:
 - Top 5 branches: highest branch rating vs. lowest transaction rating
 - Bonus: Top 5 products by transaction volume and sales
 
-**Page 2 — Snapshot Data:**
-- Raw transaction-level table (transaction_id, date, branch_name, 
-  product_name, nett_sales), sorted by most recent date
 
-🔗 **[View Live Dashboard](your-looker-studio-share-link-here)**
+🔗 **[View Live Dashboard]https://datastudio.google.com/reporting/69487df2-270c-4ab2-99eb-594592428a9f**
 
-![Dashboard Page 1](images/dashboard_page1.png)
-![Dashboard Page 2 - Snapshot Data](images/dashboard_page2_snapshot.png)
+![Main Dashboard Page](images/kf_dashboard.png)
+
 
 ---
 
